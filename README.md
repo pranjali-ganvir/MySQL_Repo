@@ -1,7 +1,6 @@
 # MySQL_Repo
 Mysql Queries 
-
--- CREAING DATABASE
+    -- CREATING DATABASE
     CREATE database newdb;
     
     -- USING DATABASE
