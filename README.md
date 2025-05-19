@@ -1,17 +1,18 @@
 # MySQL_Repo
 Mysql Queries 
-    -- CREATING DATABASE
-    CREATE database newdb;
+   
+-- CREATING DATABASE
+ CREATE database newdb;
     
-    -- USING DATABASE
-    use newdb;
+-- USING DATABASE
+use newdb;
     
-    -- CREATING TABLE
+-- CREATING TABLE
     CREATE TABLE dept(
     DEPT_NO int NOT NULL PRIMARY KEY , DNAME varchar(50) NOT NULL, LOC varchar(80)
     );
     
-    -- INSERTING DATA INTO TABLE
+ -- INSERTING DATA INTO TABLE
     INSERT into dept (DEPT_NO, DNAME, LOC)
     VALUES(10, "ACCOUNTING", "NEW YORK"),
 	 (20, "RESEARCH", "DALLAS"),
